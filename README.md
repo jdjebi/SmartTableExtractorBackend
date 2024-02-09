@@ -4,4 +4,4 @@ Backend de l'application web SmartTableExtractor. Héberge la logique backend, l
 
 # TO DO
 
-[] Ajouter un endpoint de modification et suppression d'un extracteur
+- [] Ajouter un endpoint de modification et suppression d'un extracteur
