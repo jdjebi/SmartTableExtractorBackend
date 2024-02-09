@@ -1,6 +1,6 @@
 from sqlalchemy import Column, Integer, String, Text
 
-from .database import Base
+from app.database.database import Base
 
 class Extractor(Base):
     __tablename__ = "extractors"

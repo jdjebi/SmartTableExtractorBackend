@@ -1,6 +1,7 @@
 from sqlalchemy.orm import Session
 
-from . import models, schemas 
+from . import models
+from . import schemas 
 
 def get_extractor(db: Session, extractor_id: int):
     return db.query(models.Extractor).filter(models.Extractor.id == extractor_id).first()
